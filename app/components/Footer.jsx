@@ -1,5 +1,4 @@
 import { assets } from '@/assets/assets';
-import Image from 'next/image'; // Import Image if it's from next/image
 
 const Footer = () => {
   return (

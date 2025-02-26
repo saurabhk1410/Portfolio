@@ -9,10 +9,8 @@ const Work = () => {
       <h2 className="text-center text-5xl font-Ovo">My work</h2>
       <div className="grid grid-cols-auto my-10 gap-5">
         {workData.map((project, index) => (
-     <a href={project.link} target="_blank">
+     <a href={project.link} target="_blank" key={index}>
          <div
-        
-        key={index}
         className="aspect-square bg-no-repeat bg-center rounded-lg relative cursor-pointer group"
         style={{ backgroundImage: `url(${project.bgImage})` }}
         
