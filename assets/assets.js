@@ -109,25 +109,21 @@ export const workData = [
 
 export const serviceData = [
     { 
-        icon: assets.frontend_icon, 
         title: 'Frontend Developer', 
         description: 'Specializing in building interactive and visually appealing user interfaces using React, JavaScript, and modern frameworks.', 
         link: '' 
     },
     { 
-        icon: assets.backend_icon, 
         title: 'Backend Developer', 
         description: 'Developing scalable and secure server-side applications, APIs, and database management using Node.js, Express, and MongoDB.', 
         link: '' 
     },
     { 
-        icon: assets.fullstack_icon, 
         title: 'Full Stack Developer', 
         description: 'Combining frontend and backend expertise to build complete web applications with seamless integration and performance optimization.', 
         link: '' 
     },
     { 
-        icon: assets.cpp_icon, 
         title: 'C++ Developer', 
         description: 'Designing high-performance applications, algorithms, and system-level programming using C++ and data structures.', 
         link: '' 
