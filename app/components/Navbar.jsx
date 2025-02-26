@@ -59,14 +59,14 @@ const Navbar = () => {
           {/* <FileText size={24} />   */}
 {/* <User size={24} />   */}
 {/* <Briefcase size={24} />  */}
-<div className="flex items-center gap-3 p-2 border rounded-3xl  w-fit bg-white cursor-pointer">
+{/* <div className="flex items-center gap-3 p-2 border rounded-3xl  w-fit bg-white cursor-pointer">
       <img 
         src="https://avatars.githubusercontent.com/u/160416508?v=4&size=64" 
         alt="Profile" 
         className="w-10 h-10 rounded-full"
       />
       <span className="text-lg font-medium">Hello !</span>
-    </div>
+    </div> */}
         </a>
         <ul
           className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${
